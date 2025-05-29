@@ -22,8 +22,8 @@ public class SimpleCalculatorTest {
          */
 
         num1 = 10;
-        num2 = 10;
-        expected = 20;
+        num2 = 15;
+        expected = 25;
         actual = SimpleCalculator.add(num1, num2);
         System.assertEquals(expected, actual,'Addition with 2 positive integers');
         
